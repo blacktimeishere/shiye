@@ -1,0 +1,45 @@
+# 签名密钥：绝不入库
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.idsig
+
+# 构建产物
+build/
+obj/
+out/
+dist/
+bin/
+*.apk
+*.exe
+*.zip
+*.msi
+
+# 依赖
+node_modules/
+.nuget/
+.dotnet_home/
+.tmp/
+.shots/
+
+# 演示素材与个人数据（不随源码公开）
+assets/img_*.webp
+assets/img_*.jpg
+egg-sound.mp3
+project-ledger/
+*.backup-*.html
+patch-v*.py
+*-screenshot.png
+v11-*.png
+site-*.png
+shiye-*.png
+copy-*.png
+demo-*.png
+live*.png
+m1.png
+bp-*.png
+
+# 系统
+.DS_Store
+Thumbs.db
